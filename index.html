@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PERUNIDAD</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="keywords" content="Perunidad, solidarité, association, HumaCS, CentraleSupélec">
+        <meta name="description" content="Perunidad, section de HumaCS, est une association étudiante de solidarité internationale qui lutte pour améliorer l'accès à l'éducation et favoriser le développement durable au Pérou.">
+
+        <!-- Favicon -->
+        <link href="img/Logo_Perunidad_sans_fond_sans_txt.png" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <a href="mailto:perunidad.centralesupelec@gmail.com"><i class="fa fa-envelope"></i></a>
+                                <p><a href="mailto:perunidad.centralesupelec@gmail.com">perunidad.centralesupelec@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-bar-right">
+                            <div class="social">
+                                <a href="https://www.instagram.com/perunidad.cs/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/Perunidad/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/company/perunidad"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <img src="img/Logo_Perunidad_sans_fond_sans_txt.png" alt="Logo Perunidad" height="50" width="auto">
+                <a href="index.html" class="navbar-brand">Perunidad</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                        <a href="Team.html" class="nav-item nav-link">L'Association</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="nosProjetsLink" href="Projets.html">Nos Projets</a>
+                            <div class="dropdown-menu">
+                                <a href="Nafe.html" class="dropdown-item">NAFE</a>
+                                <a href="EP.html" class="dropdown-item">Earth Peru</a>
+                                <a href="Chaska.html" class="dropdown-item">Chaska</a>
+                                <a href="Superlearner.html" class="dropdown-item">Superlearner</a>
+                            </div>
+                        </div>
+                        <a href="Actions.html" class="nav-item nav-link">Nos Actions</a>
+                        <a href="Donate.html" class="btn btn-custom">Faire un don</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+        <!-- Carousel Start -->
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/NAFE_carousel.jpeg" alt="Image de NAFE">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Financer l'éducation de jeunes défavorisés</h1>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="Donate.html">Faire un don</a>
+                                <a class="btn btn-custom btn-play" data-toggle="modal" data-src="video/video_NAFE.mp4" data-target="#videoModal">Regarder la vidéo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/EP_Carousel.jpg" alt="Image de Earth Péru">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Construction durable et accompagnement</h1>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="Donate.html">Faire un don</a>
+                                <a class="btn btn-custom btn-play" data-toggle="modal" data-src="video/video_EP.mp4" data-target="#videoModal">Regarder la vidéo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/ML_Carousel.jpg" alt="Image de Mundo Libre">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Aider à la réinsertion sociale de jeunes en difficulté</h1>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="Donate.html">Faire un don</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 4:3 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
+        
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div id="about-img" class="about-img" data-parallax="scroll" data-image-src="img/qui_sommes_nous.jpg"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-header">
+                            <p>Une section de HumaCS</p>
+                            <h2>A propos de Perunidad</h2>
+                        </div>
+                        <div class="about-tab">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#tab-content-1">Qui sommes-nous?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab-content-2">Pourquoi le Pérou?</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="tab-content-1" class="container tab-pane active">
+                                    Fondée en 2011 à l’École Centrale Paris, Perunidad est une association de solidarité internationale, qui apporte une aide manuelle, financière et humaine dans des régions très défavorisées du Pérou. Les actions ont pour but de favoriser l’accès à l’éducation et de contribuer à un développement plus durable du pays. Nous sommes aujourd'hui 14 volontaires qui travaillons depuis la France avec quatre associations locales en récoltant des fonds tout au long de l'année pour préparer notre intervention pendant l'été.
+                                </div>
+                                <div id="tab-content-2" class="container tab-pane fade">
+                                    <p>Au Pérou, l'éducation des enfants est obligatoire à partir de 5 ans et bien que cela soit généralement respecté, dans de nombreux quartiers, les espaces scolaires peuvent difficilement accueillir les élèves dans des conditions propices à l’éducation (écoles en mauvais état, manque de matériel scolaire et d’espaces de jeux…). De plus, dès que l'âge obligatoire est dépassé (11 ans), une inégalité de genre se crée, les familles les plus démunis vont privilégier l'éducation de leurs fils plutôt que celle de leurs filles qui seront alors déscolarisées. Nous avons à cœur de limiter ces inégalités en soutenant des centres éducatifs.</p>
+                                    <p>Le sujet de la préservation de l’environnement est par ailleurs très peu abordé au Pérou et les populations sont ainsi peu ou pas sensibilisées à l'impact de leurs actions sur la planète (le fait de jeter des emballages par terre par exemple). Il nous paraissait donc intéressant, dans le contexte actuel, de porter aussi cette thématique dans nos projets.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        
+        <!-- Projet - Event Start -->
+        <div class="event">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Nos Projets</p>
+                    <h2>En collaboration avec des associations péruviennes</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="event-item">
+                            <a href="Nafe.html">
+                                <img class="img-projet" src="img/Nafe_accueil.jpg" alt="Image de Nafe"> 
+                            </a>
+                            <div class="event-content">
+                                <div class="event-meta" style="max-width:30%">
+                                    <img src="img/logo_NAFE.jpg" alt="Logo de Nafe">
+                                </div>
+                                <div class="event-text">
+                                    <h3>Ninos con Amor Fe y Esperanza</h3>
+                                    <p>
+                                        Construction, développement et soutien d'un centre socio-éducatif basé à Huanchaco, ville côtière du Nord du Pérou.
+                                    </p>
+                                    <a class="btn btn-custom" href="Nafe.html">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="event-item">
+                            <a href="EP.html">
+                                <img class="img-projet" src="img/Accueil_EP.jpg" alt="Image de Earth Péru">
+                            </a>
+                            <div class="event-content">
+                                <div class="event-meta" style="max-width:30%">
+                                    <img src="img/logo_EP_sans_fond.png" alt="Logo de EP" >
+                                </div>
+                                <div class="event-text">
+                                    <h3>
+                                        Earth
+                                        <br>
+                                        Péru
+                                    </h3>
+                                    <p>
+                                        Construction d'infrastructures et sensibilisation au développement durable dans les écoles du quartier défavorisé d'Alto Trujillo.
+                                    </p>
+                                    <a class="btn btn-custom" href="EP.html">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="event-item">
+                            <a  href="Chaska.html">
+                                <img class="img-projet" src="img/Accueil_Chaska.jpg" alt="Image de Chaska" id="Main_img_projet">    
+                            </a>
+                            <div class="event-content">
+                                <div class="event-meta" style="max-width:30%">
+                                    <img src="img/logo_Chaska_sans_fond.png" alt="Logo de Chaska">
+                                </div>
+                                <div class="event-text">
+                                    <h3>Chaska</h3>
+                                    <p>
+                                        Participation au fonctionnement (rénovation et aide scolaire) d'un centre éducatif pour enfants à Primavera.
+                                    </p>
+                                    <a class="btn btn-custom" href="Chaska.html">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="event-item">
+                            <a  href="Superlearner.html">
+                                <img class="img-projet" src="img/Accueil_Superlearner.jpg" alt="Image de Superlearner" id="Main_img_projet">    
+                            </a>
+                            <div class="event-content">
+                                <div class="event-meta" style="max-width:30%">
+                                    <img src="img/logo_Superlearner_sans_fond.png" alt="Logo de Superlearner">
+                                </div>
+                                <div class="event-text">
+                                    <h3>Superlearner</h3>
+                                    <p>
+                                        Construction et sécurisation d'installations sportives dans les quartiers défavorisés de Tejemama. <br><br>
+                                    </p>
+                                    <a class="btn btn-custom" href="Superlearner.html">En savoir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projet - Event End -->
+
+
+        <!-- Service Start -->
+        <div class="service">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Nos Actions</p>
+                    <h2>Aidez-nous en réalisant dès maintenant des actions avec nous!</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="flaticon-education"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Courses de solidarité</h3>
+                                <p>Impliquer les enfants dans des actions solidaires au travers d’activités sportives, culturelles et artistiques.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="img/chocolate.svg" alt="MiCuiCS">
+                            </div>
+                            <div class="service-text">
+                                <h3>MiCuiCS</h3>
+                                <p>
+                                    Les MiCuiCS au chocolat sont une des actions phares de Perunidad. De quoi régaler les adeptes du chocolat et y convertir certains !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="img/christmas-tree.svg" alt="Autres actions">
+                            </div>
+                            <div class="service-text">
+                                <h3>Autres actions sur le campus</h3>
+                                <p>
+                                    Afin de financer nos différents projets au Pérou, nous organisons plein d'autres actions au sein du campus de CentraleSupelec.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class=" colg-lg-4 col-md-6 text-center">
+                        <a class="btn btn-custom" href="Actions.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        
+        
+        <!-- Facts Start -->
+        <div class="facts" data-parallax="scroll" data-image-src="img/Accueil_Stats.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-md-12">
+                        <h1 class="text-center">
+                            2023 - 2024 c'était
+                        </h1>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-charity"></i>
+                            <div class="facts-text">
+                                <h3 data-toggle="counter-up">14</h3>
+                                <p>Membres surmotivé.es</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-kindness"></i>
+                            <div class="facts-text">
+                                <h3 data-toggle="counter-up">4</h3>
+                                <p>Projets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-social-care"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">200</h3>
+                                <p>Enfants concernées</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-donation"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-euro" data-toggle="counter-up">22085</h3>
+                                <p>Levés</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+        
+        
+        <!-- Gallery Start -->
+        <div class="gallery">
+            <div class="container-fluid gallery py-5 px-0">
+                <div class="text-center mx-auto pb-4" style="max-width: 800px;">
+                    <div class="gallery-title">
+                        <a href="Galerie.html">
+                            <h5 class="text-uppercase">Nos Photos</h5>
+                        </a>
+                        <h1 class="mb-4">Le mandat 2023 - 2024 c'était...</h1>
+                    </div>        
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-4">
+                        <div class="gallery-item">
+                            <img src="img/Mandat_Benevoles_2024_crop.jpg" class="img-fluid w-100" alt="des bénévoles super motivés">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Mandat_Benevoles_2024.jpg" class="h4 text-white">des bénévoles super motivés</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/Mandat_Course_2024_crop.jpg" class="img-fluid w-100" alt="2 magnifiques courses de solidarité">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Gallery_4.jpg" class="h4 text-white">2 magnifiques courses de solidarité</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="gallery-item">
+                            <img src="img/Mandat_Reussites_2024_crop.JPG" class="img-fluid w-100" alt="de belles réussites">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Mandat_Reussites_2024.JPG" class="h4 text-white">de belles réussites</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/Mandat_Empanadas_2024_crop.JPG" class="img-fluid w-100" alt="des nouvelles actions">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Mandat_Empanadas_2024.JPG" class="h4 text-white">des nouvelles actions</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="gallery-item">
+                            <img src="img/Mandat_sourires_2024_crop.jpg" class="img-fluid w-100" alt="des grands sourires">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Mandat_sourires_2024.jpg" class="h4 text-white">des grands sourires</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/Mandat_Chaska_2024_crop.jpg" class="img-fluid w-100" alt="des constructions durables">
+                            <div class="gallery-content">
+                                <div class="gallery-inner pb-4">
+                                    <a href="img/Mandat_Chaska_2024.jpg" class="h4 text-white">des constructions durables</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery End -->
+       
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-us">
+                            <h2>Perunidad</h2>
+                            <p>
+                                Perunidad est la section de HumaCS, association de solidarité internationale de CentraleSupélec, qui agit au Pérou.
+                            </p>
+                            <div class="footer-social">
+                                <a class="btn btn-custom" href="https://www.instagram.com/perunidad.cs/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-custom" href="https://www.facebook.com/Perunidad/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-custom" href="https://www.linkedin.com/company/perunidad"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-contact">
+                            <h2>A Propos</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>3 Rue Joliot Curie, 91190, Gif-sur-Yvette</p>
+                            <p><i class="fa fa-envelope"></i>perunidad.centralesupelec@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-link">
+                            <h2>Plan du Site</h2>
+                            <a href="index.html">Accueil</a>
+                            <a href="Team.html">L'Association</a>
+                            <a href="Projets.html">Les Projets</a>
+                            <a href="Actions.html">Nos Actions</a>
+                            <a href="Donate.html">Faire un don</a>
+                            <a href="Galerie.html">Notre Galerie</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="index.html">Perunidad</a>, All Right Reserved. <a href="Mentions_Legales.html">Mention Légales</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
