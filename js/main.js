@@ -209,13 +209,12 @@
 
       var data = google.visualization.arrayToDataTable([
         ['Recettes', 'Euros'],
-        ['Courses de solidarité',     8073.32],
-        ['Autres actions extérieurs',      1113.24],
-        ['MiCuiCS',  1169.72],
-        ['Autres actions sur le campus', 549.57],
-        ['Semaine HUMA',    1419.20],
-        ['Autres subventions', 9362.90],
-        ['Dons', 351.08]
+        ['Courses de solidarité',     10851,67],
+        ['Autres actions extérieures',      361,51],
+        ['Actions sur le campus', 5247,97],
+        ['Semaine HUMA',    800],
+        ['Autres subventions', 7646,56],
+        ['Dons', 250]
       ]);
 
       var formatter = new google.visualization.NumberFormat({decimalSymbol: ',',groupingSymbol: ' ', suffix: '€'});
@@ -247,11 +246,9 @@
 
       var data = google.visualization.arrayToDataTable([
         ['Dépenses', 'Euros'],
-        ['NAFE',     8202.72],
-        ['Earth Peru', 5889.55],
-        ['Superlearner', 5823.93],
-        ['Chaska', 5252.18],
-        ['Autre dépenses', 180.98]
+        ['NAFE',     10200],
+        ['Espaanglisch', 5400],
+        ['Chaska', 7500],
       ]);
 
       var formatter = new google.visualization.NumberFormat({decimalSymbol: ',',groupingSymbol: ' ', suffix: '€'});
