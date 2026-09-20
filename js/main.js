@@ -209,11 +209,11 @@
 
       var data = google.visualization.arrayToDataTable([
         ['Recettes', 'Euros'],
-        ['Courses de solidarité',     10851,67],
-        ['Autres actions extérieures',      361,51],
-        ['Actions sur le campus', 4247,97],
+        ['Courses de solidarité',     10851.67],
+        ['Autres actions extérieures',      361.51],
+        ['Actions sur le campus', 4247.97],
         ['Semaine HUMA',    800],
-        ['Autres subventions', 7646,56],
+        ['Autres subventions', 7646.56],
         ['Dons', 250]
       ]);
 
